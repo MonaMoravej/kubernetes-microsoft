@@ -10,7 +10,7 @@ variables:
 
   - name: tag
     value: '$(Build.BuildId)'
-
+# random comment
 stages:
 - stage: Build
   displayName: Build stage
